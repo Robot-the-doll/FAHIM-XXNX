@@ -1,7 +1,6 @@
 <img src="https://i.ibb.co/r5W1w9C/65a2deab8394d754214210.gif" alt="banner">
 <h1 align="center">
-  <img src="./dashboard/images/logo-non-bg.png" width="25px"> GoatBot-V2 - Bot Chat Messenger
-</h1>
+  <img src="./dashboard/images/logo-non-bg.png" width="25px">
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v16.20.0">
@@ -57,6 +56,5 @@ src="./dashboard/images/st.svg">
 
 </p>
   
-<h1 align="center"> Starter Guide: </h1>
-<details>
-<summary align="center">BIG CREDITS TO NTKHANG 🇻🇳🤝🇵🇭</summary>
+<h1 align="center"> 
+<summary align="center">BIG CREDITS TO ArYan 🇧🇩🤝 </summary>
