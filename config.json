@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100027867581039",
+    "61565025325331",
     ""
   ],
   "whiteListMode": {
@@ -25,8 +25,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Yoru",
-  "ownerlink": "https://www.facebook.com/marjhun.rey.lim18",
+  "nickNameBot": "ওই মামা না প্লিজ 😭😊",
+  "ownerlink": "https://www.facebook.com/xxxx.com.404",
   "prefix": "-",
   "database": {
     "type": "sqlite",
@@ -131,9 +131,9 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": false,
+    "selfListen": true,
     "selfListenEvent": true,
-    "autoMarkDelivery": false,
+    "autoMarkDelivery": true,
     "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
   }
