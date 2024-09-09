@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "info",
 		version: "1.0",
-		author: "cliff",
+		author: "Upol",
 		countDown: 20,
 		role: 0,
 		shortDescription: { vi: "", en: "" },
@@ -15,15 +15,16 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "Yoru";
-		const botPrefix = "-";
-		const authorName = "Marjhxn";
+		const botName = "ᴀʀʏᴀɴ ʀᴀᴊ";
+		const botPrefix = ".";
+		const authorName = "ᴅᴀᴠɪᴅ ᴀʀʏᴀɴ";
 		const ownAge = "18";
-		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/marjhun.rey.lim18";
-		const authorInsta = "mrjhxn_";
-		const tikTok = "None";
-		const urls = JSON.parse(fs.readFileSync('cliff.json'));
+		const teamName = "ᴛɪᴍᴇ";
+		const authorFB = "https://www.facebook.com/ArYan.com.404";
+		const authorInsta = "ɴᴏ";
+		const tikTok = "ɴᴏ";
+		const st = "ᴀᴄᴛɪᴠᴇ";
+		const urls = JSON.parse(fs.readFileSync('aryan.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
 		const date = now.format('MMMM Do YYYY');
@@ -36,19 +37,24 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `《  Bot & Owner Info 》
-\Name: ${botName}
-\Bot Prefix: ${botPrefix}
-\owner: ${authorName}
-\Age : ${ownAge}
-\Facebook: ${authorFB}
-\Instagram: ${authorInsta}
-\TikTok: ${tikTok}
-\Date: ${date}
-\Time: ${time}
-\Team: ${teamName}
-\Uptime: ${uptimeString}
-\===============`,
+			body: `  🍒ᗩᖇYᗩᑎ IᑎᖴO🍒  \n
+🤖 Bot Name: ${botName}
+🚀 Prefix: ${botPrefix}
+👤 Owner: ${authorName}
+🔆 Age: ${ownAge}
+☢ Team: ${teamName}
+🍒 authorFb: ${authorFB}
+📱 insta: ${authorInsta}
+🏠 TikTok: ${tikTok}
+🖊 stutes: ${st}
+⏱ seconds: ${seconds}
+🕰 minutes: ${minutes}
+🛸 hours: ${hours}
+🌒 days: ${days}
+🌧 date: ${date}
+☔ Time: ${time}
+⏰ uptime: ${uptimeString}
+ `,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
